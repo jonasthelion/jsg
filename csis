@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		div.a {line-height: 200%}
+	.placeImages{
+	height: auto;
+	}
+.placeImages li{
+	display:inline-block;
+	margin: 0 10px;
+	vertical-align top;
+	}
+.placeImages img {
+	display: inline;
+	width:100px;
+	border:none;
+	border-width:5px;
+	padding:10px;
+	border-radius:17px;
+	float:none;
+	}
+.placeImages img:hover{
+	display: inline;
+	width:220px;
+	border:none;
+	border-width:2px;
+	padding:10px;
+	border-radius:17px;
+	}
+		</style>
+</head>
+
+<body>
+	<dl>
+		<dt>Video Games</dt>
+		<dd>I've always been a fan of video games and have enjoyed playing them competitively.</dd>
+		<dt>Running</dt>
+		<dd>As painful as running is, running is a simple way to go outside (or inside) and gain a little sense of freedom.</dd>
+	</dl>
+	
+	<section class="row-alt">
+		<div class="container sectioncenter">
+		<header>
+			<h3>Places I would like to visit</h3>
+			</header>
+		<div class="placeImages"></div>
+	</section>
+		
+</body>
+</html>
