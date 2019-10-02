@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MP</title>
+</head>
+
+<body>
+	<h1 style="color:#ffa54b;font-size:55px;"><center>Welcome!</center>
+	</h1>
+	<header>
+     <nav>
+		 <center><a href="index.html">Home</a>
+      <a href="family.html">My Family</a>
+      <a href="hobbies.html">My Hobbies</a>
+       <a href="pictures.html">My Picture Gallery</a>
+      <a href="contact.html">Contact Me</a></center>
+   </nav>
+</header>
+	<p><img src="fonzi.JPG" alt="fonzi!" style="float:right;width:500px;height:750px;"></p>
+	<img src="rabbit.gif" alt="Good Evening" style="float:left">
+	<p style="line-height:200%">Hello! My name is Jonas Guevara. I am nineteen years old and am currently working on my generals and introductions into Computer Science and Information Systems at Salt Lake Community College!<br>I was born and raised in Marikina, Philippines and moved to Cottonwood Heights in 2005. I eventually moved to Woods Cross, where I currently reside.<br>Although most of my free time is spent playing video games (somewhat competitively).. I do enjoy the pleasures in computers, running, cooking, and music - pretty generic stuff.<br>I hope to live a city life in the future, cooped up inside to work from home - where computer science is hopefully going to steer me into the right direction. This is just a simple drop in the bucket.</p>
+	<h2><u>Links!</u></h2>
+	<p style="line-height:200%"><a href="http://www.slcc.edu/">SLCC Homepage</a><br><a href="learn-slcc.uen.org">Canvas Site</a><br><a href="https://na.op.gg/summoner/userName=Octahate">Trashy Statistics</a><br><a href="http://www.w3schools.com/">W3Schools</a><br></p>
+	<h2><u>Top Ten Signs You Have Been Spending Too Much Time Web Surfing</u></h2>
+	
+	<ol style="line-height:200%"><li>Depression</li>
+		<li>Decrease in productivity</li>
+		<li>Weight Gain</li>
+		<li>Weak Social Skills</li>
+		<li>Increase in laziness</li>
+		<li>Rejection of human contact</li>
+		<li>Miniscule or excess consumption</li>
+		<li>Increased irritability</li>
+		<li>Sunlight Aversion</li>
+		<li>More depression</li></ol>
+	<hr>
+	<footer>
+  <nav>
+	  <center><p style="color:#ffa54b">Page created by Jonas Guevara</p>
+	<a href="index.html">Home</a>
+      <a href="family.html">My Family</a>
+      <a href="hobbies.html">My Hobbies</a>
+    <a href="pictures.html">My Picture Gallery</a>
+   <a href="contact.html">Contact Me</a></center>
+    </nav>
+  </footer>
+</body>
+</html>
