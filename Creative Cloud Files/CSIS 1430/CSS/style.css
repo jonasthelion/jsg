@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-size: 10pt;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: black;
+	line-height 14pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 5pt;
+	background-color: hsla(200, 100%, 80%, 0.5)
+}
+h1 {
+	font: 14pt Verdana, Geneve, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 20pt;
+}
+
+header {
+	font-size: 12pt;
+	font-weight: bold;
+	color: #003927;
+}
+
+.subheader{
+	font:12pt Arial;
+	color:#328C73;
+}
+.primary-nav {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+}
+img {
+	width: 460px;
+	border:solid;
+	border-width:5px;
+	padding:10px;
+	border-radius:15px;
+	float: right;
+	border-color:#553300
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #761429
+}
+
+a:hover, a:active {
+	color:761429
+}
+
+footer {
+	font-size: 9pt;
+	font-style: italic;
+	lin-height: 12pt;
+	text-align: center;
+	padding-top: 30pt;
+}
+.primary-footer {
+	color: #648880;
+	font-size: 14px;
+	padding-bottom: 44px;
+	padding-top: 44px;
+}
+
+.primary-footer small {
+	float: left;
+	font-weight: 400;
+}
