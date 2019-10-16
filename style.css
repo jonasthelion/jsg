@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-size: 10pt;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: black;
+	line-height: 14pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 5pt;
+	background-color: hsla(200, 100%, 80%, 0.5)
+}
+h1 {
+	font: 14pt Verdana, Geneve, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 20pt;
+}
+
+header {
+	font-size: 12pt;
+	font-weight: bold;
+	color: #003927;
+}
+
+.subheader{
+	font:12pt Arial;
+	color:#328C73;
+}
+.primary-nav {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+}
+img {
+	width: 460px;
+	border:solid;
+	border-width:5px;
+	padding:10px;
+	border-radius:15px;
+	float: right;
+	border-color:#553300
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #761429
+}
+
+a:hover, a:active {
+	color:761429
+}
+
+footer {
+	font-size: 9pt;
+	font-style: italic;
+	lin-height: 12pt;
+	text-align: center;
+	padding-top: 30pt;
+}
+	
+	.primary-footer {
+color: #648880;
+     font-size: 14px;
+     padding-bottom: 44px;
+     padding-top: 44px;
+   }
+  .primary-footer small {
+     float: left;
+     font-weight: 400;
+  }
+}
+
+/*
+========================================
+     Custom styles
+     ========================================
+   */
+
+   body {
+     color: black;
+     font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica,
+       Arial, sans-serif;
+	   h1, h2, h3, h4 {
+color: #ffa54b;
+}
+	  h1 {
+font-size: 36px;
+     line-height: 44px;
+   }
+   h2 {
+     font-size: 24px;
+    line-height: 44px;
+   }
+   h3 {
+   font-size: 21px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+	   h5 {
+color: #a9b2b9;
+     font-size: 14px;
+     font-weight: 400;
+		   text-transform: uppercase;
+  }
+	   strong {
+font-weight: 400;
+   }
+   cite, em {
+     font-style: italic;
+   }
+	   .primary-nav {
+font-size: 14px;
+     font-weight: 400;
+	letter-spacing: .5px;
+		   text-transform: uppercase;
+   }
+	   
+	   .section {
+line-height: 44px;
+     padding: 22px 80px 66px 80px;
+    text-align: center;
+   }
+
+/*
+========================================
+Grid
+========================================
+*/
+
+*,
+*:before,
+*:after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.container {
+margin: 0 auto;
+padding-left: 30px;
+padding-right: 30px;
+width: 960px;
+background-color: hsla(200, 100%, 24%, 0.15);
+border: none;
+border-radius: 15px;
+padding: 5px;
+margin: 10px;
+}
+
+.col-1-3 {
+	width:25%;
+	display: inline-block;
+	veritcal-align: top;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.col-2-3 {
+	width: 60%;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/*
+========================================
+Typography
+========================================
+*/
+
+h1, h3, h4, h5, p {
+margin-bottom: 22px;
+}
+
+/*
+========================================
+Buttons
+========================================
+*/
+
+.btn {
+border-radius: 5px;
+display: inline-block;
+margin: 0;
+}
+
+.btn-alt {
+border: 1px solid #553300;
+padding: 10px 30px;
+}
+
+/*
+========================================
+Home
+========================================
+*/
+
+.home {
+padding: 22px 80px 66px 80px;
+}
