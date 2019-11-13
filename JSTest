@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JSTest1</title>
+</head>
+
+<body>
+	
+	<script language="javascript" type="text/javascript">
+	
+	document.write("Hello World!")
+		
+		var car;
+		
+		var cost = 10000;
+		
+		if(cost > 50000) {
+			
+			car = "BMW";
+		}else{
+			
+			car = "Honda";
+		};
+		
+		document.write(car);
+		
+		for( I = 10; I > -1; I --){
+			
+			document.write(I+"<br>");
+		}
+		
+		document.write("Blast Off!");
+		
+		function firstFun(money){
+			var car;
+			var cost = money;
+			if(cost > 50000){
+				car = "BMW";
+				
+			}else{
+				car = "Honda";
+			};
+			document.write(car);
+			for(I = 10; I > -1; I --){
+				document.write(I+"<br>");
+			}
+			document.write("Blast Off!");
+		}
+		
+		firstFun();
+		
+		//Jonas Guevara
+		
+		//11/13/19
+	</script>
+</body>
+</html>
